@@ -1,0 +1,105 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "intent": "greet",
+        "text": "hé"
+      },
+      {
+        "intent": "greet",
+        "text": "Salut"
+      },
+      {
+        "intent": "greet",
+        "text": "bonjour"
+      },
+      {
+        "intent": "greet",
+        "text": "bonsoir"
+      },
+      {
+        "intent": "greet",
+        "text": "cc"
+      },
+      {
+        "intent": "greet",
+        "text": "coucou"
+      },
+      {
+        "intent": "restaurant_search",
+        "text": "Je cherche un endroit pour manger"
+      },
+      {
+        "intent": "restaurant_search",
+        "text": "Je veux déjeuner"
+      },
+      {
+        "intent": "restaurant_search",
+        "text": "Je cherche un endroit pour dîner"
+      },
+      {
+        "text": "Je cherche un endroit dans le nord de la ville",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 30,
+            "end": 34,
+            "entity": "location",
+            "value": "nord"
+          }
+        ]
+      },
+      {
+        "intent": "restaurant_search",
+        "text": "montrez-moi [chinois] (cuisine) restaurants"
+      },
+      {
+        "intent": "restaurant_search",
+        "text": "montrez-moi un lieu (mexicain) (cuisine) au [centre] (location)"
+      },
+      {
+        "intent": "restaurant_search",
+        "text": "Je cherche un endroit [indien] (cuisine)"
+      },
+      {
+        "intent": "restaurant_search",
+        "text": "recherche de restaurants"
+      },
+      {
+        "intent": "restaurant_search",
+        "text": "n'importe où dans l'ouest [location]"
+      },
+      {
+        "intent": "restaurant_search",
+        "text": "n'importe où près de [18328] (location)"
+      },
+      {
+        "intent": "restaurant_search",
+        "text": "Je cherche de la nourriture [fusion asiatique] (cuisine)"
+      },
+      {
+        "intent": "restaurant_search",
+        "text": "Je cherche un restaurant à [29432] (location)"
+      },
+      {
+        "intent": "thankyou",
+        "text": "merci!"
+      },
+      {
+        "intent": "thankyou",
+        "text": "mrc"
+      },
+      {
+        "intent": "thankyou",
+        "text": "merci bcp"
+      },
+      {
+        "intent": "thankyou",
+        "text": "merci beaucoup"
+      }
+    ],
+    "entity_synonyms": [],
+    "regex_features": [],
+    "lookup_tables": []
+  }
+}
